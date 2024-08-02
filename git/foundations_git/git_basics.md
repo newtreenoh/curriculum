@@ -92,7 +92,11 @@ This displays the URL of the repository you created on GitHub, which is the remo
 
 Finally, let's upload your work to the GitHub repository you created at the start of this tutorial.
 
-1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes. **NOTE: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
+1. <span id="git-push"></span>Type `git push`. To be more specific, type `git push origin main`. Since you are not dealing with another branch (other than *main*) or a different remote (as mentioned above), you can leave it as `git push` to save a few keystrokes.
+
+**NOTE 1: If at this point you receive a message that says "Support for password authentication was removed on August 13, 2021. Please use a personal access token instead.", you have followed the steps incorrectly and cloned with HTTPS, not SSH. Please follow the steps for [switching remote URLs from HTTPS to SSH](https://docs.github.com/en/get-started/getting-started-with-git/managing-remote-repositories#switching-remote-urls-from-https-to-ssh) to change your remote to SSH, then attempt to push to Github.**
+
+**NOTE 2: If you get a message saying "push declined" while trying to push the changes, please follow the steps outlined [here to update your email address](https://stackoverflow.com/questions/43378060/meaning-of-the-github-message-push-declined-due-to-email-privacy-restrictions)**.
 
 1. Type `git status` one final time. It should output "*Your branch is up to date with 'origin/main'. nothing to commit, working tree clean*".
 
@@ -107,6 +111,7 @@ Finally, let's upload your work to the GitHub repository you created at the star
 When trying to make quick changes to the files in your repo, such as attempting to fix a typo in your README.md, you might be tempted to make this change directly via Github. However, it is best to avoid this, as it will cause issues that require more advanced Git knowledge than we want to go over at this stage (it is covered in a future lesson). For now, it is advised to make any changes via your local files, then commit and push them using Git commands in your terminal once ready.
 
 </div>
+
 
 #### Cheatsheet
 
